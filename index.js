@@ -17,7 +17,7 @@ app.use("/js", express.static(path.resolve(__dirname + `/src/js`)));
 const renderTemplate = (res, req, template, data = {}) => {
   const baseData = {
     path: req.path
-  };
+  }; 
   res.render(path.resolve(`${templateDir}${path.sep}${template}`), Object.assign(baseData, data));
 };
 
