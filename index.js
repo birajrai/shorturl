@@ -19,7 +19,6 @@ const renderTemplate = (res, req, template, data = {}) => {
     path: req.path
   };
   res.render(path.resolve(`${templateDir}${path.sep}${template}`), Object.assign(baseData, data));
-
 };
 
 app.get('/', function(request, response) {
