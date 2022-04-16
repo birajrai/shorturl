@@ -1,0 +1,19 @@
+{
+  "name": "shorturl",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "^1.18.3",
+    "ejs": "^3.1.5",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.2"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
