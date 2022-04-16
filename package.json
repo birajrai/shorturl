@@ -13,6 +13,8 @@
     "path": "^0.12.7",
     "quick.db": "^7.1.2"
   },
+ "author": "birajrai",
+  "repository": "https://github.com/birajrai/shorturl",
   "engines": {
     "node": "8.x"
   }
