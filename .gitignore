@@ -1,2 +1,5 @@
 node_modules/
 json.sqlite
+.replit
+package-lock.json
+replit.nix
