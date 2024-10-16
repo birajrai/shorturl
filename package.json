@@ -11,7 +11,7 @@
     "body-parser": "^1.18.3",
     "ejs": "^3.1.5",
     "path": "^0.12.7",
-    "quick.db": "^7.1.2"
+    "quick.db": "^9.0.0"
   },
  "author": "birajrai",
   "repository": "https://github.com/birajrai/shorturl",
